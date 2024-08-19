@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "F12",
+    "command": "workbench.action.togglePanel",
+  },
+  {
+    "key": "Ctrl+]",
+    "command": "editor.action.goToTypeDefinition"
+  },
+  {
+    "key": "Ctrl+T",
+    "command": "workbench.action.navigateBack"
+  },
+  {
+    "key": "Ctrl+F12",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "Ctrl+k Ctrl+f",
+    "command": "editor.action.formatSelection"
+  },
+  // active between editor and terminal
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  // active editor 
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+  }
+]
